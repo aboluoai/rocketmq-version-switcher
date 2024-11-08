@@ -1,4 +1,4 @@
-package com.lyz.rocketmq.switcher.config;
+package com.rocketmq.switcher.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,6 +1,6 @@
-package com.lyz.rocketmq.switcher.annotation;
+package com.rocketmq.switcher.annotation;
 
-import com.lyz.rocketmq.switcher.config.RocketMQSwitchAutoConfiguration;
+import com.rocketmq.switcher.config.RocketMQSwitchAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

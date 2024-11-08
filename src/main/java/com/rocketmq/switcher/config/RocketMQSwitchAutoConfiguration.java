@@ -1,6 +1,6 @@
-package com.lyz.rocketmq.switcher.config;
+package com.rocketmq.switcher.config;
 
-import com.lyz.rocketmq.switcher.core.VersionSwitchTemplate;
+import com.rocketmq.switcher.core.VersionSwitchTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.apis.ClientConfiguration;
