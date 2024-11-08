@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+rocketmq:
+  version-switch:
+    v4-name-server: localhost:9876
+    v5-name-server: localhost:8081
+    topics:
+      test-topic:
+        enable-v5: true
+        v5-percentage: 20
+        producer-group: test-producer-group
+        enable-fallback: true
+        max-retry-times: 3
+        fallback-threshold: 1000
+      
+      order-topic:
+        enable-v5: false
+        producer-group: order-producer-group
+        enable-fallback: true
+        max-retry-times: 3 
