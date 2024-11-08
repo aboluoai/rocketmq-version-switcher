@@ -13,7 +13,7 @@
 
 ## 快速开始
 ### 使用demo
-[demo示例](/rocketmq-version-switcher/tree/main/src/test)
+[demo示例](/src/test)
 ### Maven 依赖
 
 ```xml
