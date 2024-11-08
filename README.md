@@ -12,7 +12,8 @@
 - 支持复用已存在的 V4 生产者
 
 ## 快速开始
-
+### 使用demo
+[demo示例](/rocketmq-version-switcher/tree/main/src/test)
 ### Maven 依赖
 
 ```xml
